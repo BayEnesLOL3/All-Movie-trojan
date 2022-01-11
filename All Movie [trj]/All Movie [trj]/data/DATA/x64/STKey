@@ -1,0 +1,47 @@
+{
+    "editor.unicodeHighlight.allowedCharacters": {
+        "\b": true
+    },
+    "launch": {
+        "configurations": [
+        {
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR CICS",
+            "type": "intertest-cics",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "cicsApplId": ""
+        }{
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        }{
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR CICS",
+            "type": "intertest-cics",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "cicsApplId": ""
+        }{
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        }{
